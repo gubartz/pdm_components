@@ -64,7 +64,7 @@ import java.util.Locale
  * @see OutlinedTextField
  */
 @Composable
-fun DataPickerField(
+fun DatePickerField(
     label: String,
     value: LocalDate?,
     onValueChange: (LocalDate) -> Unit,
